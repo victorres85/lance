@@ -1,13 +1,4 @@
-$color-primary: #195484;
-$color-secondary: #f58220;
-$font-color-primary: #ffffff;
-$font-color-secondary: #454545;
-$font-default: Arial,
-Helvetica,
-sans-serif;
-$font-size-default: 1.6rem;
-$font-size-nav: 1.8rem;
-
+@import 'var';
 @import 'animation';
 @import 'fonts';
 @import 'footer';
@@ -80,4 +71,8 @@ section {
     display: flex;
     padding-bottom: 4rem;
     width: 100%;
+
+    @media (max-width:$phone) {}
 }
+
+@import 'responsive'

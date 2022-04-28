@@ -8,13 +8,6 @@
     "build": "webpack --config webpack.config.js --mode production ",
     "dev": "webpack serve --stats-children --live-reload --open --mode development"
   },
-  // "repository": {
-  //   "type": "git",
-  //   "url": "git+https://github.com/victorres85/lance.git"
-  // },
-  // "bugs": {
-  //   "url": "https://github.com/victorres85/lance/issues"
-  // },
   "keywords": [],
   "author": "Victor Almeida",
   "license": "ISC",
